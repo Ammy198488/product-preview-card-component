@@ -1,0 +1,18 @@
+@media only screen and (max-width: 767px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        max-width: 280px;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile {
+        display: block;
+        // to curve the top most part
+        border-radius: 10px 10px 0 0;
+    }
+    .cart{
+        width: 100%;
+    }
+}

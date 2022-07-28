@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+.cart {
+  padding: 10px 50px;
+  width: 100%;
+  color: white;
+  background-color: #3c8067;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.cart i {
+  color: white;
+}
+
+.cart:hover {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+  background-color: #1c232b;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  padding-bottom: 15px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  padding-bottom: 15px;
+  color: #6c7289;
+  line-height: 1.5;
+}
+
+p:first-of-type {
+  letter-spacing: 3px;
+}
+
+span:first-of-type {
+  font-family: 'Fraunces', serif;
+  font-size: 25px;
+  color: #3c8067;
+}
+
+span:last-of-type {
+  font-size: 12px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f2ebe3;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  max-width: 480px;
+  border-radius: 10px;
+}
+
+img.desktop {
+  width: 15rem;
+  border-radius: 10px 0 0 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mobile {
+  display: none;
+}
+
+.content {
+  padding: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 280px;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    border-radius: 10px 10px 0 0;
+  }
+  .cart {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
